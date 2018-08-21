@@ -1,33 +1,19 @@
 # FriendFinder
 
-Created during Week 13 of Rutgers Coding Bootcamp. The goal was to create a Friend Finder app (essentially a dating app but for friends) using Node and Express servers. The user enters the page that leads to a survey. When the user submits the survey, they are matched with a "friend" that has the closest match to their personality.
+My Friend Finder app was created using Node and Express servers. The user enters the page that leads to a survey. When the user submits the survey, they are matched with a "friend" that has the closest match to their personality.
 
 ## Getting Started
-http://protected-coast-16615.herokuapp.com/
+https://frozen-stream-16080.herokuapp.com/
 
 ## Screen Shots
 
-![Screen shot](app/public/images/SS1.png)
-Index Page
+![friendfinderhomepage](https://user-images.githubusercontent.com/38441292/44416185-de876680-a537-11e8-995d-c66df67d5c9a.JPG)
 
-![Screen shot 2](app/public/images/SS2.png)
-Survey
+![friendfinderq s](https://user-images.githubusercontent.com/38441292/44416088-9bc58e80-a537-11e8-87b4-4fb205dc848c.JPG)
+
 
 ## Technologies used
 - Node.js
 - body-parager NPM Package - https://www.npmjs.com/package/inquirer
 - express NPM Package - https://www.npmjs.com/package/express
 - path NPM Package - https://www.npmjs.com/package/path
-
-### Prerequisites
-
-```
-- Node.js - Download the latest version of Node https://nodejs.org/en/
-- Materialize - Add CDN link to HTML http://materializecss.com/getting-started.html
-```
-
-## Built With
-
-* Sublime Text - Text Editor
-* Materialize - Wireframe
-
