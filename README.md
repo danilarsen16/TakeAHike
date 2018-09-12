@@ -9,8 +9,7 @@ https://frozen-stream-16080.herokuapp.com/
 
 ![hike](https://user-images.githubusercontent.com/38441292/45400584-5e25c400-b612-11e8-8264-f1bcc3c5476a.JPG)
 
-![friendfinderq s](https://user-images.githubusercontent.com/38441292/44416088-9bc58e80-a537-11e8-87b4-4fb205dc848c.JPG)
-
+![hikesurvey](https://user-images.githubusercontent.com/38441292/45400624-90cfbc80-b612-11e8-96fa-260520892c71.JPG)
 
 ## Technologies used
 - Node.js
