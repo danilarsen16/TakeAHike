@@ -6,84 +6,161 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="app/public/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <title>Friend Finder</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+  <link rel="icon" href="http://cypressintegration.com/wp-content/uploads/2015/07/Mountain-Icon.png">
+  <title>Take a Hike</title>
 </head>
-
 <body>
 
-  <div class='maincontainer'>
-    <!-- <div class='card-panel yellow darken-1 col s12'> -->
-    <section class='center-align'>
-      <h1 class='pageTitle'> Lets find you some</h1>
-      <img src="http://3.bp.blogspot.com/--YemJ9GAExY/ULpkRsQ2ieI/AAAAAAAABMA/dRE1NrZBjFw/s1600/Friends_logo.png" width="800px">
-      <a href='/survey' id='surveyButton' class="waves-effect waves-light btn black lighten-1">
-        <i class="material-icons left">comment</i>Take my survey!</a>
-    </section>
-  </div>
-  <div class='col s4'>
-    <p>
-      <a href='./api/friends'>API Friends List</a> |
-      <a href='https://github.com/danilarsen16/Friend-Finder' target='_blank'>GitHub Repo</a>
-    </p>
-  </div>
+  <div class="jumbotron">
+    <h1 class="display-4">Take a hike</h1>
+    <hr class="my-4">
   </div>
 
+  <div class='maincontainer'>
+    <section class='center-align'>
+      <h1 class='pageTitle'>You want to go on a hike...
+        <p class="secondHeader">but have
+          <b>nodoby</b> to go with.</h1>
+      </p>
+    </section>
+  </div>
+
+  <div class="v3"></div>
+
+  <div class='maincontainer2'>
+    <section class='center-align' id="secondBox">
+      <h3>You could pick just anyone, but what if they turn out lame?</h3>
+      <br>
+    </section>
+  </div>
+
+  <div class="v3"></div>
+
+  <div class='maincontainer3'>
+    <section class='center-align'>
+      <br>
+      <h3>Take my state of the art hiking buddy finder quiz and start kickin up some dirt!</h3>
+      <br>
+      <a href='/survey' id='surveyButton' class="waves-effect waves-light btn black lighten-1">
+        <i class="material-icons left">terrain</i>Take a hike!</a>
+    </section>
+  </div>
+
+  <div class='footer'>
+    <a href='./api/friends' style="color:black;">API Friends List |</a>
+    <a href='https://github.com/danilarsen16/Friend-Finder' style="color:black;" target='_blank'>GitHub Repo</a>
+  </div>
+
+  <!-- Inline Stylesheet -->
+  <style>  
+  
+  body {
+    background: url("https://images.pexels.com/photos/681794/pexels-photo-681794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: 60% 10%;
+    background-repeat: no-repeat;
+    color: black;
+  }
+
+  .jumbotron {
+    background-color: rgba(128, 128, 128, 0.551);    
+    background-size: cover;
+    text-align: center;
+    opacity: 0.6;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .display-4 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 120px;
+    font-weight: 600;
+  }
+  #secondBox {
+      padding-bottom: 0px;
+      height: 120px;
+  }
+  
+  .col {
+    float: left;
+    position: sticky;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .maincontainer {
+    padding: 0px;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+    clear: both;
+    background-color: white;
+    font-family: 'Unica One', cursive;
+    opacity: 0.9;
+    border-style: solid;
+    position: static;
+  }
+
+  .maincontainer2 {
+    max-width: 1100px;
+    margin: auto;
+    clear: both;
+    background-color: white;
+    font-family: 'Unica One', cursive;
+    opacity: 0.9;
+    border-style: solid;
+    position: static;
+  }
+
+  .maincontainer3 {
+    padding: 0px;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 150px;
+    clear: both;
+    background-color: white;
+    font-family: 'Unica One', cursive;
+    opacity: 0.9;
+    border-style: solid;
+    position: static;
+  }
+
+  #surveyButton{
+    font-size: 180%;
+  }
+
+  #surveyButton {
+    margin: 30px;
+  }
+
+  .v3 {
+    border-left: 6px solid black;
+    height: 80px;
+    position: relative;
+    left: 50%;
+  }</style>
+  </div>
   </div>
   </div>
   </section>
-
-
-
-<!-- Stylesheet -->
-<style>
-  body {
-background: url("https://images.pexels.com/photos/606542/pexels-photo-606542.jpeg?cs=srgb&dl=beverage-caffeine-coffee-606542.jpg&fm=jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-color: grey;
-color: black;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.col {
-float: left;
-position: sticky;
-font-size: 30px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-a {
-color: white;
-}
-
-
-.maincontainer {
-    padding: 0px;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    clear: both;
-    background-color: white;
-    opacity: 0.6; 
-}
-
-
-.pageTitle {
-padding: 60px;
-}
-
-
-#surveyButton {
-margin: 30px;
-}
-</style>
-
-
 </body>
 
 </html>

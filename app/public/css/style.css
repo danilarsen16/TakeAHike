@@ -1,0 +1,98 @@
+  body {
+    background: url("https://images.pexels.com/photos/681794/pexels-photo-681794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: 60% 10%;
+    background-repeat: no-repeat;
+    color: black;
+  }
+
+  .jumbotron {
+    background-color: rgba(128, 128, 128, 0.551);    
+    background-size: cover;
+    text-align: center;
+    opacity: 0.6;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .display-4 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 120px;
+    font-weight: 600;
+  }
+  #secondBox {
+      padding-bottom: 0px;
+      height: 120px;
+  }
+  
+  .col {
+    float: left;
+    position: sticky;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .maincontainer {
+    padding: 0px;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+    clear: both;
+    background-color: white;
+    font-family: 'Unica One', cursive;
+    opacity: 0.9;
+    border-style: solid;
+    position: static;
+  }
+
+  .maincontainer2 {
+    max-width: 1100px;
+    margin: auto;
+    clear: both;
+    background-color: white;
+    font-family: 'Unica One', cursive;
+    opacity: 0.9;
+    border-style: solid;
+    position: static;
+  }
+
+  .maincontainer3 {
+    padding: 0px;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 150px;
+    clear: both;
+    background-color: white;
+    font-family: 'Unica One', cursive;
+    opacity: 0.9;
+    border-style: solid;
+    position: static;
+  }
+
+  #surveyButton{
+    font-size: 180%;
+  }
+
+  #surveyButton {
+    margin: 30px;
+  }
+
+  .v3 {
+    border-left: 6px solid black;
+    height: 80px;
+    position: relative;
+    left: 50%;
+  }
