@@ -7,7 +7,7 @@ https://frozen-stream-16080.herokuapp.com/
 
 ## Screen Shots
 
-![friendfinderhomepage](https://user-images.githubusercontent.com/38441292/44416185-de876680-a537-11e8-995d-c66df67d5c9a.JPG)
+![hike](https://user-images.githubusercontent.com/38441292/45400584-5e25c400-b612-11e8-8264-f1bcc3c5476a.JPG)
 
 ![friendfinderq s](https://user-images.githubusercontent.com/38441292/44416088-9bc58e80-a537-11e8-87b4-4fb205dc848c.JPG)
 
