@@ -1,6 +1,7 @@
 # Take a Hike
 
-My Buddy finder app was created using Node and Express servers. The user enters the page that leads to a survey. When the user submits the survey, they are matched with a "buddy" that has the closest match to their personality.
+My "Take A Hike" app was created using Node and Express servers.  
+The user enters the page that leads to a survey. When the user submits the survey, they are matched with a "hiking buddy" that has the closest match to their personality!
 
 ## Getting Started
 https://frozen-stream-16080.herokuapp.com/
